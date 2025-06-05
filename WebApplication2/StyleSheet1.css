@@ -1,0 +1,112 @@
+﻿body {
+    background-color: aliceblue;
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+}
+
+#contenedor {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px royalblue;
+    height: 669px;
+}
+
+h1 {
+    color: black;
+    font-family: Calibri;
+    font-size: 20px
+}
+
+#lblNumero1,
+#lblNumero2,
+#lblResultado {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+asp\:Button {
+    font-family: 'Courier New';
+    margin: 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    asp\:Button:hover {
+        background-color: #666;
+    }
+
+#btcalcular {
+    background-color: green;
+    color: white;
+}
+
+#btnVolver {
+    background-color: red;
+    color: white;
+}
+
+#btnConcat {
+    background-color: green;
+    color: white;
+}
+
+#btpromedio {
+    background-color: green;
+    color: white;
+}
+
+#BtConcatenar {
+    background-color: black;
+    color: white;
+}
+
+#btVol {
+    background-color: red;
+    color: white;
+}
+
+#btFormulario {
+    background-color: red;
+    color: white;
+}
+
+#lblConcat {
+    color: black;
+}
+
+#lbVol {
+    color: black;
+}
+
+#lblConcat2 {
+    color: black;
+}
+
+*{
+    font-family: Calibri;
+}
+
+.auto-style1 {
+    width: 6px;
+}
+
+.auto-style2 {
+    width: 6px;
+    height: 27px;
+}
+
+.auto-style3 {
+    height: 27px;
+}

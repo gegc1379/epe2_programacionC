@@ -15,9 +15,9 @@
 
                 <img src="img/cropped-Logo-IPCHILE-590x590-300dpi.png" width="300" height="200"/>
 
-            <h1>Cálculo del Promedio Ponderado</h1>
+            <h1>Cálculadora de Promedio Ponderado</h1>
 
-            <h1>Página 1 - Guillermo González / Claudio Ramírez</h1>
+            <h3>Página 1 - Guillermo González Coñoman / Claudio Ramírez Placencia</h3>
 
             <asp:Label Text="EVA1 (7%):" runat="server" /><br />
             <asp:TextBox ID="EVA1" runat="server" /><br />

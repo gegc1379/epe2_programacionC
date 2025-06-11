@@ -28,6 +28,8 @@
             <asp:Button ID="btFormulario" runat="server" Text="Formulario de Contacto" OnClick="btformulario_Click"/>
             <br /><br />
 
+            <asp:Button ID="btCalculadora" runat="server" Text="Calculadora Operaciones Básicas" OnClick="btcalculadora_Click"/>
+            <br /><br />
 
         </div>
     </form>

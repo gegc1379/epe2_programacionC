@@ -28,7 +28,10 @@ namespace WebApplication2
         {
             Response.Redirect("WebForm4.aspx");
         }
-
+        protected void btcalculadora_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm5.aspx");
+        }
 
     }
 }

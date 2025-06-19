@@ -31,6 +31,9 @@
             <asp:Button ID="btCalculadora" runat="server" Text="Calculadora Operaciones Básicas" OnClick="btcalculadora_Click"/>
             <br /><br />
 
+            <asp:Button ID="btvariable" runat="server" Text="variables" OnClick="btvariable_Click"/>
+            <br /><br />
+
         </div>
     </form>
 </body>

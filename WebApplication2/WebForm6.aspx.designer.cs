@@ -11,7 +11,7 @@ namespace WebApplication2
 {
 
 
-    public partial class WebForm3
+    public partial class WebForm6
     {
 
         /// <summary>
@@ -24,48 +24,39 @@ namespace WebApplication2
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control btpromedio.
+        /// Control btnMostrar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btpromedio;
+        protected global::System.Web.UI.WebControls.Button btnMostrar;
 
         /// <summary>
-        /// Control BtConcatenar.
+        /// Control Label1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtConcatenar;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control btFormulario.
+        /// Control lblResultado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btFormulario;
+        protected global::System.Web.UI.WebControls.Label lblResultado;
 
         /// <summary>
-        /// Control btCalculadora.
+        /// Control btnVolver.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btCalculadora;
-
-        /// <summary>
-        /// Control btvariable.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btvariable;
+        protected global::System.Web.UI.WebControls.Button btnVolver;
     }
 }

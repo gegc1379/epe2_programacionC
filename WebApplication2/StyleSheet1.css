@@ -110,3 +110,34 @@ asp\:Button {
 .auto-style3 {
     height: 27px;
 }
+
+#btnCalcular {
+    background-color: green;
+    color: white;
+}
+
+#btnCalcular {
+    background-color: green;
+    color: white;
+}
+
+#btnMostrar {
+    background-color: green;
+    color: white;
+}
+
+#btVariable {
+    background-color: slateblue;
+    color: white;
+}
+
+#btarray {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+#btCalculadora {
+    background-color: orangered;
+    color: white;
+}
+

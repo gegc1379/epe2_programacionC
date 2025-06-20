@@ -10,11 +10,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div id="contenedor">
 
             <img src="img/cropped-Logo-IPCHILE-590x590-300dpi.png" width="300" height="200"/>    
             
             <h1>  Calculadora Operaciones Básica </h1>
+
+            <h3>Página 4 - Guillermo González Coñoman / Claudio Ramírez Placencia</h3>
 
                 <asp:textbox ID="textbox1" runat="server"></asp:textbox>
                 <br /><br />

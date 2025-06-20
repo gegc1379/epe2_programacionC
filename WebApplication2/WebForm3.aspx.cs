@@ -38,5 +38,10 @@ namespace WebApplication2
             Response.Redirect("WebForm6.aspx");
         }
 
+        protected void btarray_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm7.aspx");
+        }
+
     }
 }

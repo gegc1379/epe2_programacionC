@@ -31,8 +31,11 @@
             <asp:Button ID="btCalculadora" runat="server" Text="Calculadora Operaciones Básicas" OnClick="btcalculadora_Click"/>
             <br /><br />
 
-            <asp:Button ID="btvariable" runat="server" Text="variables" OnClick="btvariable_Click"/>
+            <asp:Button ID="btVariable" runat="server" Text="Tipos de Variables Locales-Globales-Estaticas" OnClick="btvariable_Click"/>
             <br /><br />
+
+            <asp:Button ID="btarray" runat="server" Text="Ejemplo Array y Vectores " OnClick="btarray_Click"/>
+<br /><br />
 
         </div>
     </form>

@@ -10,11 +10,9 @@ namespace WebApplication2
     public partial class WebForm6 : System.Web.UI.Page
     {
 
-        // Variable de instancia
-        int instancia = 20;
+        static int variableEstatica = 30;
 
-        // Variable estática
-        static int estatica = 30;
+        int variableInstancia = 20;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -24,13 +22,11 @@ namespace WebApplication2
         protected void btnMostrar_Click(object sender, EventArgs e)
         {
 
-            // Variable local
-            int local = 10;
+            int variableLocal = 10;
 
-            lblResultado.Text = $"Variable Local: {local}<br>" +
-                                    $"Variable de Instancia: {instancia}<br>" +
-                                    $"Variable Estática: {estatica}";
-
+            label1.Text = "Variable Local: " + variableLocal.ToString();
+            label2.Text = "Variable de Instancia: " + variableInstancia.ToString();
+            label3.Text = "Variable Estática: " + variableEstatica.ToString();
         }
 
         protected void button1_click(object sender, EventArgs e)

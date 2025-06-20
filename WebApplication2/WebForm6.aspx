@@ -10,17 +10,24 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div id="contenedor">
 
-            <h2>Ejemplo de Ámbito de Variables</h2>
+            <img src="img/cropped-Logo-IPCHILE-590x590-300dpi.png" width="300" height="200"/>
 
-            <asp:Button ID="btnMostrar" runat="server" Text="Mostrar V" OnClick="btnMostrar_Click" />
+            <h1>Ejemplo de Ámbito de Variables</h1>
+
+            <h3>Página 5 - Guillermo González Coñoman / Claudio Ramírez Placencia</h3>
+
+            <asp:Button ID="btnMostrar" runat="server" Text="Mostrar Variables" OnClick="btnMostrar_Click" />
                 <br /><br />
 
-            <asp:Label ID="Label1" runat="server" CssClass="resultado" />
-            <br /><br />
+            <asp:label ID="label1" runat="server" text=""></asp:label>
+                <br /><br />
 
-            <asp:label ID="lblResultado" runat="server" text=""></asp:label>
+                <asp:label ID="label2" runat="server" text=""></asp:label>
+                <br /><br />
+
+                <asp:label ID="label3" runat="server" text=""></asp:label>
                 <br /><br />
 
             <asp:button ID="btnVolver" Text="Volver a index" runat="server" OnClick="button1_click" />

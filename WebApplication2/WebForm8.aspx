@@ -16,7 +16,7 @@
 
             <h1>Formulario de Datos Personales</h1><br /><br />
 
-            <h1>Guillermo González / Claudio Ramírez</h1><br /><br />
+            <h3>Página 7 - Guillermo González / Claudio Ramírez</h3><br /><br />
 
 
             <asp:Label Text="Nombre:" runat="server" /><br />

@@ -141,3 +141,17 @@ asp\:Button {
     color: white;
 }
 
+#btCalculadora {
+    background-color: orangered;
+    color: white;
+}
+
+#btform {
+    background-color: black;
+    color: white;
+}
+
+#btnGuardar {
+    background-color: green;
+    color: white;
+}

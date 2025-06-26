@@ -35,7 +35,10 @@
             <br /><br />
 
             <asp:Button ID="btarray" runat="server" Text="Ejemplo Array y Vectores " OnClick="btarray_Click"/>
-<br /><br />
+            <br /><br />
+
+            <asp:Button ID="btform" runat="server" Text="Formulario de ingreso" OnClick="btform_Click"/>
+            <br /><br />
 
         </div>
     </form>
